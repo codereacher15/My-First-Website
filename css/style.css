@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#body {
+  background-image: url("../assets/img/background.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#logo {
+  
+  width: fit-content;
+  position: absolute;
+  top: 30px;
+  left: 80px;
+
+  /* border: 2px solid red; */
+}
+#img1 {
+  
+  opacity: 0.8;
+  filter: invert(100%);
+  width: 12vh;
+  height: 12vh;
+}
+#ltext {
+  font-family: "Satisfy", cursive;
+  font-weight: bolder;
+  font-size: 26px;
+  padding-left: 2px;
+  color: rgb(243, 242, 241);
+}
+#nav {
+  
+  border: 1px solid white;
+  position: absolute;
+  left: 530px;
+  top: 40px;
+}
+#nav ul {
+  margin: auto;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  font-size: 26px;
+}
+#nav ul li {
+  font-family: "Acme", sans-serif;
+  list-style: none;
+  overflow: auto;
+  padding-right: 40px;
+}
+.a {
+  text-decoration: none;
+}
+.a:link {
+  color: red;
+}
+
+/* visited link */
+.a:visited {
+  color: rgb(240, 245, 240);
+}
+
+/* mouse over link */
+.a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+.a:active {
+  color: blue;
+}
+
+#buttons {
+  float: right;
+}
+button {
+  position: relative;
+  top: 40px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(19, 18, 18);
+  cursor: pointer;
+  font-family: "Acme", sans-serif;
+  right: 60px;
+  font-size: 26px;
+  padding: 15px;
+}
+button:hover {
+  color: hotpink;
+}
+
+
+#para{
+
+  width: fit-content;
+  position: absolute;
+  top:30%;
+  left:20%;
+}
+.des{
+  
+ font-family: "Satisfy", cursive;
+ font-size: 56px;
+ text-decoration: italic;
+ color:whitesmoke;
+
+}
+ 
+
+#container{
+  
+  display:flex;
+  flex-direction: row;
+  position:absolute;
+  top:50%;
+  left: 6.8%;
+ 
+  width: fit-content;
+   
+}
+#div1,#div2{ padding-right:5px;}
+
+#img3{
+  width:100%;
+  height:450px;
+  border-radius: 20px;
+ 
+}
+
+#img4{
+  border-radius: 20px;
+  width:100%;
+  height:450px;
+}
+
+
+#div3{
+  transition:.5s ease;
+  font-family: "Satisfy", cursive;
+  font-weight: bolder;
+  font-size: 52px;
+  position: absolute;
+  top:40%;
+  left:27vh;
+  color: rgb(250, 87, 87);
+}
+#div4{
+  transition:.5s ease;
+    font-family: "Satisfy", cursive;
+  font-weight: bolder;
+  font-size: 52px;
+  position: absolute;
+  top:39%;
+  left:128vh;
+  color: rgb(250, 87, 87);
+}
+#div3,#div4{
+  opacity:0;
+}
+#div1:hover #div3{
+  opacity:1;
+}
+#div2:hover #div4{
+  opacity:1;
+}
+
+.center {
+  color: red;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content:bottom;
+  align-items: center;
+}
+
+span {
+  font-family: Arial;
+  font-size: 25px;
+}
+span.type {
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 100px;
+}
+span.type::after {
+  content: "|";
+  display: inline;
+  animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor {
+  opacity: 0;
+  display: none;
+}
+
+/*Custom cursor animation*/
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
