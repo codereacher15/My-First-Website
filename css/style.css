@@ -59,12 +59,12 @@
   text-decoration: none;
 }
 .a:link {
-  color: red;
+  color: rgb(245, 244, 244);
 }
 
 /* visited link */
 .a:visited {
-  color: rgb(240, 245, 240);
+  color: rgb(233, 102, 15);
 }
 
 /* mouse over link */
