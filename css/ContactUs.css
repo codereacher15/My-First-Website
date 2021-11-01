@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+body{
+    background-image: url(../assets/img/musician-349790_1280.webp);
+    font-size: 25px;
+    color:darkblue;
+    text-align: center;  
+    background-repeat:round;
+
+}
+.container{
+    width: 55%;
+    float: right;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+    text-align: center;
+    color:black;
+    font-family: 'Fruktur', cursive;
+}
+.contact-box{
+    
+    background: white;
+    display: flex ;
+    flex-direction: column;
+    text-align: left    ;
+}
+.contact-left{
+    flex-basis:60%;
+    padding: 40px 60px;
+ float: right   ;   
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background:darkblue;
+    color: white;
+
+}
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 20px;
+    
+}
+ .input-row.input-group{
+     flex-basis: 45%;
+ }
+ input{
+     width: 100%;
+     border: none;
+     border-bottom: 1px solid black;
+     outline: none;
+     padding-bottom: 5px;
+     
+ }
+ textarea{
+     width: 100%;
+     border: 1px solid black ;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box  ;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+}
+button{
+    background: black;
+    width: 150px;
+    border: none;
+    outline: none;
+    color:yellow;
+    height: 45px;
+    border-radius: 40px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0,181, 0.3);
+    cursor:pointer;
+    
+}
+button :hover{
+    color: red;
+}
+.contact-left h3{
+    color:darkblue;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 30px;
+}
+tr td:first-child{
+    padding-top: 15px;
+}
